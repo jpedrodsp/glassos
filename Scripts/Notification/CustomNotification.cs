@@ -47,8 +47,8 @@ public class CustomNotification : MonoBehaviour {
 		createNotification.headerColor.r = colorR;
 		createNotification.headerColor.g = colorG;
 		createNotification.headerColor.b = colorB;
-		createNotification.headerObject.GetComponent<Image>().color = new Color32((byte)colorR, (byte)colorG, (byte)colorB, 100);
-		createNotification.headerObjS.GetComponent<Image>().color = new Color32((byte)colorR, (byte)colorG, (byte)colorB, 100);
+		createNotification.headerObject.GetComponent<Image>().color = new Color32((byte)colorR, (byte)colorG, (byte)colorB, 150);
+		createNotification.headerObjS.GetComponent<Image>().color = new Color32((byte)colorR, (byte)colorG, (byte)colorB, 150);
 
 		createNotification.appIcon = newAppIcon;
 		createNotification.popupIcon = newPopupIcon;
@@ -59,7 +59,7 @@ public class CustomNotification : MonoBehaviour {
 
 	public void SetProgressNotification () 
 	{
-		createNotification.headerObjPB.GetComponent<Image>().color = new Color32((byte)colorR, (byte)colorG, (byte)colorB, 100);
+		createNotification.headerObjPB.GetComponent<Image>().color = new Color32((byte)colorR, (byte)colorG, (byte)colorB, 150);
 
 		pbScript.currentPercent = pbCurrentPercent;
 		pbScript.speed = pbSpeed;

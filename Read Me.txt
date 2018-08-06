@@ -1,0 +1,21 @@
+Glass OS v0.25a Public
+-----------------------
+Note that this project is NOT COMPLETED. It's still under development and unoptimized.
+While exploring the project, you can also send me feedbacks.
+
+Contact me via e-mail: isa.steam@outlook.com
+
+Wanna support and get the latest version?
+You can support me on Patreon: https://www.patreon.com/michsky
+-----------------------------------------------------------------------
+
+Used Pro Audio Player asset for playback. It's a paid asset and it's not included in the package.
+You can get it from asset store: https://assetstore.unity.com/packages/tools/audio/pro-audio-player-34549
+
+
+LICENCE: MIT & GPL 3.0
+https://opensource.org/licenses/MIT
+https://www.gnu.org/licenses/gpl-3.0.html
+--------------------------
+Note: Some icons are from Windows 10 and there is a song from NCS (both are free for personal use, not for commercial projects).
+Except that, I made the whole package myself, so feel free to use it.
