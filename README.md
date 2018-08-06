@@ -6,7 +6,7 @@ You can download Glass OS from [releases page](https://github.com/Michsky/glasso
 Latest public version: v0.25a
 Latest private version: v0.31b
 
-Private version is available on Patreon: (https://www.patreon.com/home)
+Private version is available on Patreon: https://www.patreon.com/michsky
 
 # Contact
 [Contact me via e-mail](mailto:isa.steam@outlook.com)
