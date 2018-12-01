@@ -1,0 +1,26 @@
+Check out roadmap & known issues:
+https://trello.com/b/om47jyz1/glass-os
+
+v0.51a changelog
+-------------------
+• Mobile scene
+• Custom keyboard (mobile)
+• New smooth notification center (desktop)
+• New smooth sound center (desktop)
+• New smooth start screen (desktop)
+• New music app
+• New gallery app
+• New settings app
+• New messaging app
+• New animations
+• New UI elements
+• New icons
+• New start screen style (desktop)
+• Added dynamic aspect ratio
+• Project assets cleaned up
+• Project files are even more categorized
+• Fixed tons of bugs (and probably added a lot)
+
+This is a huge update, that's why I need more time to fix everything.
+I know there are a lot of bugs, but I'll fix most of them with the next update :)
+--------------------------------------------------------------------------------

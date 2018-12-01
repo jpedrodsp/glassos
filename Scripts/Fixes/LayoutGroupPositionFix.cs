@@ -17,5 +17,6 @@ public class LayoutGroupPositionFix : MonoBehaviour
         yield return new WaitForSeconds(time);
         layoutGroup.enabled = false;
         layoutGroup.enabled = true;
+        Destroy(GetComponent<LayoutGroupPositionFix>());
     }
 }

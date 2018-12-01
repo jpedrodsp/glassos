@@ -1,21 +1,30 @@
-Glass OS v0.25a Public
------------------------
+Glass OS v0.51a private
+-------------------------
+Thank you for supporting me on Patreon!
+
 Note that this project is NOT COMPLETED. It's still under development and unoptimized.
-While exploring the project, you can also send me feedbacks.
+However, you can explore the project and even contribute a bit.
 
-Contact me via e-mail: isa.steam@outlook.com
+Contact me via:
+E-mail: isa.steam@outlook.com
+YouTube: https://www.youtube.com/c/michsky
+Unity Connect: https://connect.unity.com/u/5992c13832b3060018eff44d
+Patreon: https://www.patreon.com/michsky
+Steam: https://steamcommunity.com/id/geezjesus/
+-----------------------------------------
 
-Wanna support and get the latest version?
-You can support me on Patreon: https://www.patreon.com/michsky
------------------------------------------------------------------------
-
-Used Pro Audio Player asset for playback. It's a paid asset and it's not included in the package.
-You can get it from asset store: https://assetstore.unity.com/packages/tools/audio/pro-audio-player-34549
-
-
-LICENCE: MIT & GPL 3.0
+LICENCE: MIT
+---------------
 https://opensource.org/licenses/MIT
-https://www.gnu.org/licenses/gpl-3.0.html
---------------------------
-Note: Some icons are from Windows 10 and there is a song from NCS (both are free for personal use, not for commercial projects).
-Except that, I made the whole package myself, so feel free to use it.
+
+Check out 3rd party asset licences by clicking down below.
+-------------------------------------------------------------
+
+SPECIAL THANKS TO
+-----------------------
+Mob Sakai - https://github.com/mob-sakai
+Various - https://bitbucket.org/UnityUIExtensions/unity-ui-extensions
+Renaissance Coders - https://www.youtube.com/channel/UCkUIs-k38aDaImZq2Fgsyjw
+
+All of the included 3rd packages and songs are copyright free. Show some love to them :)
+---------------------------------------------------------------------------------------------

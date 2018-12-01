@@ -47,10 +47,12 @@ public class CustomNotification : MonoBehaviour {
 		createNotification.headerColor.r = colorR;
 		createNotification.headerColor.g = colorG;
 		createNotification.headerColor.b = colorB;
-		createNotification.headerObject.GetComponent<Image>().color = new Color32((byte)colorR, (byte)colorG, (byte)colorB, 150);
-		createNotification.headerObjS.GetComponent<Image>().color = new Color32((byte)colorR, (byte)colorG, (byte)colorB, 150);
+		createNotification.headerObject.GetComponent<Image>().color = new Color32((byte)colorR, (byte)colorG, (byte)colorB, 255);
+		createNotification.headerObjS.GetComponent<Image>().color = new Color32((byte)colorR, (byte)colorG, (byte)colorB, 255);
+        createNotification.appIconObject.GetComponent<Image>().color = new Color32((byte)colorR, (byte)colorG, (byte)colorB, 255);
+        createNotification.appTitleObj.GetComponent<Text>().color = new Color32((byte)colorR, (byte)colorG, (byte)colorB, 255);
 
-		createNotification.appIcon = newAppIcon;
+        createNotification.appIcon = newAppIcon;
 		createNotification.popupIcon = newPopupIcon;
 		createNotification.appTitle = newAppTitle;
 		createNotification.descTitle = newDescTitle;
@@ -59,9 +61,11 @@ public class CustomNotification : MonoBehaviour {
 
 	public void SetProgressNotification () 
 	{
-		createNotification.headerObjPB.GetComponent<Image>().color = new Color32((byte)colorR, (byte)colorG, (byte)colorB, 150);
+		createNotification.headerObjPB.GetComponent<Image>().color = new Color32((byte)colorR, (byte)colorG, (byte)colorB, 255);
+        createNotification.pbAppIconObject.GetComponent<Image>().color = new Color32((byte)colorR, (byte)colorG, (byte)colorB, 255);
+        createNotification.pbAppTitleObj.GetComponent<Text>().color = new Color32((byte)colorR, (byte)colorG, (byte)colorB, 255);
 
-		pbScript.currentPercent = pbCurrentPercent;
+        pbScript.currentPercent = pbCurrentPercent;
 		pbScript.speed = pbSpeed;
 		createNotification.appIcon = newAppIcon;
 		createNotification.appTitle = newAppTitle;
@@ -76,12 +80,7 @@ public class CustomNotification : MonoBehaviour {
 			notificationCover.sprite = songCover.sprite;
 			ntfSongTitle.text = songTitle.text;
 			ntfArtistTitle.text = artistTitle.text;
-
-			if (ntfSongTitle.text == "Not playing") 
-			{
-				ntfSongTitle.text = "Glass Music";
-			}
-			ntfSongTitle.text = ntfSongTitle.text.ToUpper();
+			// ntfSongTitle.text = ntfSongTitle.text.ToUpper();
 		}
 		createNotification.appIcon = newAppIcon;
 		createNotification.appTitle = newAppTitle;

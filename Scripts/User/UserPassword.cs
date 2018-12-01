@@ -5,7 +5,7 @@ using System.Collections;
 public class UserPassword : MonoBehaviour {
 
 	[Header("ANIMATOR")]
-	public Animator userScreen;
+	public Animator lockScreen;
 	public Animator wrongPassword;
 
 	[Header("OBJECTS")]
@@ -19,7 +19,7 @@ public class UserPassword : MonoBehaviour {
 	{
 		if (passwordLine.text == userDataScript.password)
 		{
-			userScreen.Play ("User Screen Fade-out");
+            lockScreen.Play ("Lock Screen Close");
 		} 
 
 		else
